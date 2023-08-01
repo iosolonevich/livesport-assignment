@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75CF2D532A77EC5A0056576A /* Livesport_assignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D522A77EC5A0056576A /* Livesport_assignmentApp.swift */; };
-		75CF2D552A77EC5A0056576A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D542A77EC5A0056576A /* ContentView.swift */; };
+		75CF2D532A77EC5A0056576A /* LivesportAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */; };
+		75CF2D552A77EC5A0056576A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D542A77EC5A0056576A /* MainView.swift */; };
 		75CF2D572A77EC5B0056576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF2D562A77EC5B0056576A /* Assets.xcassets */; };
 		75CF2D5A2A77EC5B0056576A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF2D592A77EC5B0056576A /* Preview Assets.xcassets */; };
 		75CF2D642A77EC5B0056576A /* Livesport_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D632A77EC5B0056576A /* Livesport_assignmentTests.swift */; };
 		75CF2D6E2A77EC5B0056576A /* Livesport_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */; };
 		75CF2D702A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */; };
+		75CF2D7E2A77F18B0056576A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 75CF2D7D2A77F18B0056576A /* ComposableArchitecture */; };
+		75CF2D812A77F5ED0056576A /* MainCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D802A77F5ED0056576A /* MainCore.swift */; };
+		75CF2D852A77FD1F0056576A /* SearchResponseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */; };
+		75CF2D872A7820960056576A /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D862A7820960056576A /* ApiClient.swift */; };
+		75CF2D8B2A78268E0056576A /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D8A2A78268E0056576A /* ApiError.swift */; };
+		75CF2D8D2A782C4F0056576A /* ApiLiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D8C2A782C4F0056576A /* ApiLiveKey.swift */; };
+		75CF2D8F2A7836660056576A /* ApiMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D8E2A7836660056576A /* ApiMock.swift */; };
+		75CF2D922A792C020056576A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D912A792C020056576A /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +43,8 @@
 
 /* Begin PBXFileReference section */
 		75CF2D4F2A77EC5A0056576A /* Livesport-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Livesport-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75CF2D522A77EC5A0056576A /* Livesport_assignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentApp.swift; sourceTree = "<group>"; };
-		75CF2D542A77EC5A0056576A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivesportAssignmentApp.swift; sourceTree = "<group>"; };
+		75CF2D542A77EC5A0056576A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		75CF2D562A77EC5B0056576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CF2D592A77EC5B0056576A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75CF2D5F2A77EC5B0056576A /* Livesport-assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Livesport-assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,13 @@
 		75CF2D692A77EC5B0056576A /* Livesport-assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Livesport-assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentUITests.swift; sourceTree = "<group>"; };
 		75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75CF2D802A77F5ED0056576A /* MainCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCore.swift; sourceTree = "<group>"; };
+		75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseItem.swift; sourceTree = "<group>"; };
+		75CF2D862A7820960056576A /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		75CF2D8A2A78268E0056576A /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		75CF2D8C2A782C4F0056576A /* ApiLiveKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLiveKey.swift; sourceTree = "<group>"; };
+		75CF2D8E2A7836660056576A /* ApiMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMock.swift; sourceTree = "<group>"; };
+		75CF2D912A792C020056576A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CF2D7E2A77F18B0056576A /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		754910EB2A796C2E006342BF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		754910EE2A796D5D006342BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		75CF2D462A77EC5A0056576A = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +124,12 @@
 		75CF2D512A77EC5A0056576A /* Livesport-assignment */ = {
 			isa = PBXGroup;
 			children = (
-				75CF2D522A77EC5A0056576A /* Livesport_assignmentApp.swift */,
-				75CF2D542A77EC5A0056576A /* ContentView.swift */,
+				754910EE2A796D5D006342BF /* Extensions */,
+				754910EB2A796C2E006342BF /* Components */,
+				75CF2D832A77FC8C0056576A /* ApiClient */,
+				75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */,
+				75CF2D7F2A77F5D70056576A /* Main */,
+				75CF2D902A792BB90056576A /* SupportingFiles */,
 				75CF2D562A77EC5B0056576A /* Assets.xcassets */,
 				75CF2D582A77EC5B0056576A /* Preview Content */,
 			);
@@ -127,6 +161,43 @@
 			path = "Livesport-assignmentUITests";
 			sourceTree = "<group>";
 		};
+		75CF2D7F2A77F5D70056576A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75CF2D542A77EC5A0056576A /* MainView.swift */,
+				75CF2D802A77F5ED0056576A /* MainCore.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		75CF2D822A77FB980056576A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */,
+				75CF2D8A2A78268E0056576A /* ApiError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75CF2D832A77FC8C0056576A /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				75CF2D822A77FB980056576A /* Models */,
+				75CF2D862A7820960056576A /* ApiClient.swift */,
+				75CF2D8C2A782C4F0056576A /* ApiLiveKey.swift */,
+				75CF2D8E2A7836660056576A /* ApiMock.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		75CF2D902A792BB90056576A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				75CF2D912A792C020056576A /* AppConstants.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +214,9 @@
 			dependencies = (
 			);
 			name = "Livesport-assignment";
+			packageProductDependencies = (
+				75CF2D7D2A77F18B0056576A /* ComposableArchitecture */,
+			);
 			productName = "Livesport-assignment";
 			productReference = 75CF2D4F2A77EC5A0056576A /* Livesport-assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +289,9 @@
 				Base,
 			);
 			mainGroup = 75CF2D462A77EC5A0056576A;
+			packageReferences = (
+				75CF2D7C2A77F18B0056576A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 75CF2D502A77EC5A0056576A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75CF2D552A77EC5A0056576A /* ContentView.swift in Sources */,
-				75CF2D532A77EC5A0056576A /* Livesport_assignmentApp.swift in Sources */,
+				75CF2D8B2A78268E0056576A /* ApiError.swift in Sources */,
+				75CF2D922A792C020056576A /* AppConstants.swift in Sources */,
+				75CF2D852A77FD1F0056576A /* SearchResponseItem.swift in Sources */,
+				75CF2D552A77EC5A0056576A /* MainView.swift in Sources */,
+				75CF2D532A77EC5A0056576A /* LivesportAssignmentApp.swift in Sources */,
+				75CF2D8F2A7836660056576A /* ApiMock.swift in Sources */,
+				75CF2D812A77F5ED0056576A /* MainCore.swift in Sources */,
+				75CF2D8D2A782C4F0056576A /* ApiLiveKey.swift in Sources */,
+				75CF2D872A7820960056576A /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +509,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +539,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +669,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75CF2D7C2A77F18B0056576A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75CF2D7D2A77F18B0056576A /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75CF2D7C2A77F18B0056576A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75CF2D472A77EC5A0056576A /* Project object */;
 }
