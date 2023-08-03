@@ -10,13 +10,13 @@ import Foundation
 
 struct ApiClient {
     var baseUrl: @Sendable () throws -> URL
-    var searchQuery: @Sendable (String) async throws -> [SearchResponseItem]
+    var searchQuery: @Sendable (String, String) async throws -> [SearchResponseItem]
 }
 
 extension ApiClient: TestDependencyKey {
     static let previewValue = Self(
         baseUrl: { URL(string: "https://s.livesport.services/api/v2")! },
-        searchQuery: { _ in .mock }
+        searchQuery: { _, _  in .mock }
     )
     
     static let testValue = Self(

@@ -13,7 +13,6 @@ struct ErrorResponse: Decodable, Equatable {
     let name: String
     let stack: String?
     let errors: [LSError]?
-    let data: Data?
 }
 
 struct LSError: Decodable, Equatable {
@@ -21,13 +20,8 @@ struct LSError: Decodable, Equatable {
     let type: String
 }
 
-struct Data: Decodable, Equatable {
-    let name: String
-}
-
 enum APIServiceError: Error {
     case invalidURL
     case invalidResponseType
     case httpStatusCodeFailed(statusCode: Int, error: ErrorResponse?)
-    
 }

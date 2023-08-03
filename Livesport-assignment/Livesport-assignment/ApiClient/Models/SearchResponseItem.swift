@@ -13,7 +13,7 @@ struct SearchResponseItem: Decodable, Equatable, Identifiable, Hashable {
     let gender: Gender
     let name: String
     let type: TypeItem
-    let participantTypes: [ParticipantTypeItem]
+    let participantTypes: [ParticipantTypeItem]?
     let sport: Sport
     let favouriteKey: FavouriteKey
     let flagID: Int?
@@ -64,6 +64,7 @@ enum ParticipantTypeName: String, Decodable, Equatable {
     case team = "Team"
     case player = "Player"
     case playerInTeam = "PlayerInTeam"
+    case national = "National"
     
     case forward = "Forward"
     case midfielder = "Midfielder"
@@ -114,7 +115,7 @@ struct ResponseImage: Decodable, Equatable, Hashable {
 }
 
 // MARK: - Team
-struct Team: Decodable, Equatable, Hashable {
+struct Team: Decodable, Equatable, Hashable, Identifiable {
     let id, name: String
     let kind: Kind
     let participantType: TeamParticipantType

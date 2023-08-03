@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754910F32A7A6099006342BF /* SearchResultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754910F22A7A6099006342BF /* SearchResultDetailView.swift */; };
+		754910F52A7A60A1006342BF /* SearchResultDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754910F42A7A60A1006342BF /* SearchResultDetail.swift */; };
+		754910F92A7ABAF3006342BF /* SearchResultImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754910F82A7ABAF3006342BF /* SearchResultImage.swift */; };
+		754910FE2A7BB6E7006342BF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 754910FD2A7BB6E7006342BF /* OrderedCollections */; };
 		75CF2D532A77EC5A0056576A /* LivesportAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */; };
-		75CF2D552A77EC5A0056576A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D542A77EC5A0056576A /* MainView.swift */; };
+		75CF2D552A77EC5A0056576A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D542A77EC5A0056576A /* SearchView.swift */; };
 		75CF2D572A77EC5B0056576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF2D562A77EC5B0056576A /* Assets.xcassets */; };
 		75CF2D5A2A77EC5B0056576A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF2D592A77EC5B0056576A /* Preview Assets.xcassets */; };
 		75CF2D642A77EC5B0056576A /* Livesport_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D632A77EC5B0056576A /* Livesport_assignmentTests.swift */; };
 		75CF2D6E2A77EC5B0056576A /* Livesport_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */; };
 		75CF2D702A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */; };
 		75CF2D7E2A77F18B0056576A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 75CF2D7D2A77F18B0056576A /* ComposableArchitecture */; };
-		75CF2D812A77F5ED0056576A /* MainCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D802A77F5ED0056576A /* MainCore.swift */; };
+		75CF2D812A77F5ED0056576A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D802A77F5ED0056576A /* Search.swift */; };
 		75CF2D852A77FD1F0056576A /* SearchResponseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */; };
 		75CF2D872A7820960056576A /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D862A7820960056576A /* ApiClient.swift */; };
 		75CF2D8B2A78268E0056576A /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D8A2A78268E0056576A /* ApiError.swift */; };
@@ -42,9 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		754910F22A7A6099006342BF /* SearchResultDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultDetailView.swift; sourceTree = "<group>"; };
+		754910F42A7A60A1006342BF /* SearchResultDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultDetail.swift; sourceTree = "<group>"; };
+		754910F82A7ABAF3006342BF /* SearchResultImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultImage.swift; sourceTree = "<group>"; };
 		75CF2D4F2A77EC5A0056576A /* Livesport-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Livesport-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivesportAssignmentApp.swift; sourceTree = "<group>"; };
-		75CF2D542A77EC5A0056576A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		75CF2D542A77EC5A0056576A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		75CF2D562A77EC5B0056576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CF2D592A77EC5B0056576A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75CF2D5F2A77EC5B0056576A /* Livesport-assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Livesport-assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +59,7 @@
 		75CF2D692A77EC5B0056576A /* Livesport-assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Livesport-assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentUITests.swift; sourceTree = "<group>"; };
 		75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		75CF2D802A77F5ED0056576A /* MainCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCore.swift; sourceTree = "<group>"; };
+		75CF2D802A77F5ED0056576A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseItem.swift; sourceTree = "<group>"; };
 		75CF2D862A7820960056576A /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		75CF2D8A2A78268E0056576A /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754910FE2A7BB6E7006342BF /* OrderedCollections in Frameworks */,
 				75CF2D7E2A77F18B0056576A /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,15 +98,18 @@
 		754910EB2A796C2E006342BF /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				754910F82A7ABAF3006342BF /* SearchResultImage.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		754910EE2A796D5D006342BF /* Extensions */ = {
+		754910F12A7A6087006342BF /* SearchResultDetail */ = {
 			isa = PBXGroup;
 			children = (
+				754910F22A7A6099006342BF /* SearchResultDetailView.swift */,
+				754910F42A7A60A1006342BF /* SearchResultDetail.swift */,
 			);
-			path = Extensions;
+			path = SearchResultDetail;
 			sourceTree = "<group>";
 		};
 		75CF2D462A77EC5A0056576A = {
@@ -124,13 +135,12 @@
 		75CF2D512A77EC5A0056576A /* Livesport-assignment */ = {
 			isa = PBXGroup;
 			children = (
-				754910EE2A796D5D006342BF /* Extensions */,
+				75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */,
 				754910EB2A796C2E006342BF /* Components */,
 				75CF2D832A77FC8C0056576A /* ApiClient */,
-				75CF2D522A77EC5A0056576A /* LivesportAssignmentApp.swift */,
-				75CF2D7F2A77F5D70056576A /* Main */,
+				75CF2D7F2A77F5D70056576A /* Search */,
+				754910F12A7A6087006342BF /* SearchResultDetail */,
 				75CF2D902A792BB90056576A /* SupportingFiles */,
-				75CF2D562A77EC5B0056576A /* Assets.xcassets */,
 				75CF2D582A77EC5B0056576A /* Preview Content */,
 			);
 			path = "Livesport-assignment";
@@ -161,13 +171,13 @@
 			path = "Livesport-assignmentUITests";
 			sourceTree = "<group>";
 		};
-		75CF2D7F2A77F5D70056576A /* Main */ = {
+		75CF2D7F2A77F5D70056576A /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				75CF2D542A77EC5A0056576A /* MainView.swift */,
-				75CF2D802A77F5ED0056576A /* MainCore.swift */,
+				75CF2D542A77EC5A0056576A /* SearchView.swift */,
+				75CF2D802A77F5ED0056576A /* Search.swift */,
 			);
-			path = Main;
+			path = Search;
 			sourceTree = "<group>";
 		};
 		75CF2D822A77FB980056576A /* Models */ = {
@@ -193,6 +203,7 @@
 		75CF2D902A792BB90056576A /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				75CF2D562A77EC5B0056576A /* Assets.xcassets */,
 				75CF2D912A792C020056576A /* AppConstants.swift */,
 			);
 			path = SupportingFiles;
@@ -216,6 +227,7 @@
 			name = "Livesport-assignment";
 			packageProductDependencies = (
 				75CF2D7D2A77F18B0056576A /* ComposableArchitecture */,
+				754910FD2A7BB6E7006342BF /* OrderedCollections */,
 			);
 			productName = "Livesport-assignment";
 			productReference = 75CF2D4F2A77EC5A0056576A /* Livesport-assignment.app */;
@@ -291,6 +303,7 @@
 			mainGroup = 75CF2D462A77EC5A0056576A;
 			packageReferences = (
 				75CF2D7C2A77F18B0056576A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				754910FC2A7BB6E7006342BF /* XCRemoteSwiftPackageReference "swift-collections" */,
 			);
 			productRefGroup = 75CF2D502A77EC5A0056576A /* Products */;
 			projectDirPath = "";
@@ -337,10 +350,13 @@
 				75CF2D8B2A78268E0056576A /* ApiError.swift in Sources */,
 				75CF2D922A792C020056576A /* AppConstants.swift in Sources */,
 				75CF2D852A77FD1F0056576A /* SearchResponseItem.swift in Sources */,
-				75CF2D552A77EC5A0056576A /* MainView.swift in Sources */,
+				754910F32A7A6099006342BF /* SearchResultDetailView.swift in Sources */,
+				754910F52A7A60A1006342BF /* SearchResultDetail.swift in Sources */,
+				75CF2D552A77EC5A0056576A /* SearchView.swift in Sources */,
+				754910F92A7ABAF3006342BF /* SearchResultImage.swift in Sources */,
 				75CF2D532A77EC5A0056576A /* LivesportAssignmentApp.swift in Sources */,
 				75CF2D8F2A7836660056576A /* ApiMock.swift in Sources */,
-				75CF2D812A77F5ED0056576A /* MainCore.swift in Sources */,
+				75CF2D812A77F5ED0056576A /* Search.swift in Sources */,
 				75CF2D8D2A782C4F0056576A /* ApiLiveKey.swift in Sources */,
 				75CF2D872A7820960056576A /* ApiClient.swift in Sources */,
 			);
@@ -429,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -483,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -671,6 +687,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		754910FC2A7BB6E7006342BF /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		75CF2D7C2A77F18B0056576A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
@@ -682,6 +706,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		754910FD2A7BB6E7006342BF /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 754910FC2A7BB6E7006342BF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
 		75CF2D7D2A77F18B0056576A /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 75CF2D7C2A77F18B0056576A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;

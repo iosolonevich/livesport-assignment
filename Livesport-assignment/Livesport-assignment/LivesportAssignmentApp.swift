@@ -12,9 +12,9 @@ import SwiftUI
 struct LivesportAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView(
-                store: Store(initialState: Main.State(), reducer: {
-                    Main()
+            SearchView(
+                store: Store(initialState: Search.State(), reducer: {
+                    Search()
                 })
             )
         }
