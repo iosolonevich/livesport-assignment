@@ -16,8 +16,6 @@
 		75CF2D572A77EC5B0056576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF2D562A77EC5B0056576A /* Assets.xcassets */; };
 		75CF2D5A2A77EC5B0056576A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF2D592A77EC5B0056576A /* Preview Assets.xcassets */; };
 		75CF2D642A77EC5B0056576A /* Livesport_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D632A77EC5B0056576A /* Livesport_assignmentTests.swift */; };
-		75CF2D6E2A77EC5B0056576A /* Livesport_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */; };
-		75CF2D702A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */; };
 		75CF2D7E2A77F18B0056576A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 75CF2D7D2A77F18B0056576A /* ComposableArchitecture */; };
 		75CF2D812A77F5ED0056576A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D802A77F5ED0056576A /* Search.swift */; };
 		75CF2D852A77FD1F0056576A /* SearchResponseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */; };
@@ -30,13 +28,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		75CF2D602A77EC5B0056576A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75CF2D472A77EC5A0056576A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75CF2D4E2A77EC5A0056576A;
-			remoteInfo = "Livesport-assignment";
-		};
-		75CF2D6A2A77EC5B0056576A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75CF2D472A77EC5A0056576A /* Project object */;
 			proxyType = 1;
@@ -56,9 +47,6 @@
 		75CF2D592A77EC5B0056576A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75CF2D5F2A77EC5B0056576A /* Livesport-assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Livesport-assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CF2D632A77EC5B0056576A /* Livesport_assignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentTests.swift; sourceTree = "<group>"; };
-		75CF2D692A77EC5B0056576A /* Livesport-assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Livesport-assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentUITests.swift; sourceTree = "<group>"; };
-		75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livesport_assignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		75CF2D802A77F5ED0056576A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		75CF2D842A77FD1F0056576A /* SearchResponseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseItem.swift; sourceTree = "<group>"; };
 		75CF2D862A7820960056576A /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
@@ -79,13 +67,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75CF2D5C2A77EC5B0056576A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75CF2D662A77EC5B0056576A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -117,7 +98,6 @@
 			children = (
 				75CF2D512A77EC5A0056576A /* Livesport-assignment */,
 				75CF2D622A77EC5B0056576A /* Livesport-assignmentTests */,
-				75CF2D6C2A77EC5B0056576A /* Livesport-assignmentUITests */,
 				75CF2D502A77EC5A0056576A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,7 +107,6 @@
 			children = (
 				75CF2D4F2A77EC5A0056576A /* Livesport-assignment.app */,
 				75CF2D5F2A77EC5B0056576A /* Livesport-assignmentTests.xctest */,
-				75CF2D692A77EC5B0056576A /* Livesport-assignmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,15 +139,6 @@
 				75CF2D632A77EC5B0056576A /* Livesport_assignmentTests.swift */,
 			);
 			path = "Livesport-assignmentTests";
-			sourceTree = "<group>";
-		};
-		75CF2D6C2A77EC5B0056576A /* Livesport-assignmentUITests */ = {
-			isa = PBXGroup;
-			children = (
-				75CF2D6D2A77EC5B0056576A /* Livesport_assignmentUITests.swift */,
-				75CF2D6F2A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift */,
-			);
-			path = "Livesport-assignmentUITests";
 			sourceTree = "<group>";
 		};
 		75CF2D7F2A77F5D70056576A /* Search */ = {
@@ -251,24 +221,6 @@
 			productReference = 75CF2D5F2A77EC5B0056576A /* Livesport-assignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		75CF2D682A77EC5B0056576A /* Livesport-assignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75CF2D792A77EC5B0056576A /* Build configuration list for PBXNativeTarget "Livesport-assignmentUITests" */;
-			buildPhases = (
-				75CF2D652A77EC5B0056576A /* Sources */,
-				75CF2D662A77EC5B0056576A /* Frameworks */,
-				75CF2D672A77EC5B0056576A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75CF2D6B2A77EC5B0056576A /* PBXTargetDependency */,
-			);
-			name = "Livesport-assignmentUITests";
-			productName = "Livesport-assignmentUITests";
-			productReference = 75CF2D692A77EC5B0056576A /* Livesport-assignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -283,10 +235,6 @@
 						CreatedOnToolsVersion = 14.3;
 					};
 					75CF2D5E2A77EC5B0056576A = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 75CF2D4E2A77EC5A0056576A;
-					};
-					75CF2D682A77EC5B0056576A = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 75CF2D4E2A77EC5A0056576A;
 					};
@@ -311,7 +259,6 @@
 			targets = (
 				75CF2D4E2A77EC5A0056576A /* Livesport-assignment */,
 				75CF2D5E2A77EC5B0056576A /* Livesport-assignmentTests */,
-				75CF2D682A77EC5B0056576A /* Livesport-assignmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -327,13 +274,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75CF2D5D2A77EC5B0056576A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75CF2D672A77EC5B0056576A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,15 +310,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75CF2D652A77EC5B0056576A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75CF2D702A77EC5B0056576A /* Livesport_assignmentUITestsLaunchTests.swift in Sources */,
-				75CF2D6E2A77EC5B0056576A /* Livesport_assignmentUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -386,11 +317,6 @@
 			isa = PBXTargetDependency;
 			target = 75CF2D4E2A77EC5A0056576A /* Livesport-assignment */;
 			targetProxy = 75CF2D602A77EC5B0056576A /* PBXContainerItemProxy */;
-		};
-		75CF2D6B2A77EC5B0056576A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75CF2D4E2A77EC5A0056576A /* Livesport-assignment */;
-			targetProxy = 75CF2D6A2A77EC5B0056576A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -609,42 +535,6 @@
 			};
 			name = Release;
 		};
-		75CF2D7A2A77EC5B0056576A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WXJEK8MMRK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.solonevich.Livesport-assignmentUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Livesport-assignment";
-			};
-			name = Debug;
-		};
-		75CF2D7B2A77EC5B0056576A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WXJEK8MMRK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.solonevich.Livesport-assignmentUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Livesport-assignment";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -671,15 +561,6 @@
 			buildConfigurations = (
 				75CF2D772A77EC5B0056576A /* Debug */,
 				75CF2D782A77EC5B0056576A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75CF2D792A77EC5B0056576A /* Build configuration list for PBXNativeTarget "Livesport-assignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75CF2D7A2A77EC5B0056576A /* Debug */,
-				75CF2D7B2A77EC5B0056576A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

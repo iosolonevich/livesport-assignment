@@ -20,7 +20,7 @@ struct LSError: Decodable, Equatable {
     let type: String
 }
 
-enum APIServiceError: Error {
+enum APIServiceError: Error, Equatable {
     case invalidURL
     case invalidResponseType
     case httpStatusCodeFailed(statusCode: Int, error: ErrorResponse?)

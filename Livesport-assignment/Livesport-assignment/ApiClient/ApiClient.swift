@@ -16,7 +16,7 @@ struct ApiClient {
 extension ApiClient: TestDependencyKey {
     static let previewValue = Self(
         baseUrl: { URL(string: "https://s.livesport.services/api/v2")! },
-        searchQuery: { _, _  in .mock }
+        searchQuery: { _, _  in [.mock] }
     )
     
     static let testValue = Self(

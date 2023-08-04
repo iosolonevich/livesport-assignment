@@ -53,7 +53,7 @@ struct SearchResultDetailView_Previews: PreviewProvider {
             SearchResultDetailView(
                 store: Store(
                     initialState: SearchResultDetail.State(
-                        searchResultDetail: [SearchResponseItem].mock.first!
+                        searchResultDetail: .mock
                     )
                 ) {}
             )
